@@ -1,2 +1,2 @@
 # Printf-Implementation
-An implementation of C function "printf" for 42 School
+An implementation of "printf" function for a project in 42 School
