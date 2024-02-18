@@ -50,13 +50,23 @@ This function supports the following conversions: *cspiduxX%*
 
 %%: Print a percent sign '%'.
 
+➤ Parameters
+
+ " *s " – A pointer to a null-terminated string containing the format control string. This string may contain ordinary characters and format specifications.
+
+ " … "  – A variable number of arguments that correspond to the values to be formatted and printed based on the placeholders in the format string.
+
+➤ Return Value
+
+The total number of characters printed, excluding the null-terminating byte. If an error occurs or an unsupported conversion specifier is encountered, it returns -1.
+
 ---
 
 ## 🚀 Getting Started  🚀 
 
 ### 🔧 Installation
 
-1. Clone the Printf repository:
+1. Clone the Printf_Implementation repository:
 ```sh
 git clone https://github.com/rcortes-b/Printf_Implementation.git
 ```
