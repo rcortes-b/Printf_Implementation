@@ -12,7 +12,7 @@
 - [🔎 What is implemented?](#-what-is-implemented)
 - [🚀 Getting Started](#-getting-started--)
     - [🔧 Installation](#-installation)
-    - [🤖 Use ft_printf](#-use-Libft)
+    - [🤖 Use ft_printf](#-use-ft_printf)
 - [Extra: Check out my profile on the Intranet](#--check-out-my-profile-on-the-intra-of-42-school-%EF%B8%8F)
 
 ---
@@ -48,7 +48,8 @@ This function supports the following conversions: *cspiduxX%*
 
 %u: Print an unsigned integer in decimal format.
 
-%%: Print a percent sign ‘%’.
+%%: Print a percent sign '%'.
+
 ---
 
 ## 🚀 Getting Started  🚀 
