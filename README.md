@@ -34,31 +34,31 @@ The functions have to follow a strict rule. For example, you cannot intitialize 
 
 ## 🔎 _What is implemented?_
 
-This function supports the following conversions: *cspiduxX%*
+➤ This function supports the following conversions: *cspiduxX%*
 
-%c: Print a single character.
+➡️ %c: Print a single character.
 
-%s: Print a null-terminated string.
+➡️ %s: Print a null-terminated string.
 
-%d or %i: Print a signed integer.
+➡️ %d or %i: Print a signed integer.
 
-%X or %x: Print an unsigned integer in hexadecimal format.
+➡️ %X or %x: Print an unsigned integer in hexadecimal format.
 
-%p: Print the address of a pointer in hexadecimal format.
+➡️ %p: Print the address of a pointer in hexadecimal format.
 
-%u: Print an unsigned integer in decimal format.
-
-%%: Print a percent sign '%'.
+➡️ %u: Print an unsigned integer in decimal format.
+ 
+➡️ %%: Print a percent sign '%'.
 
 ➤ Parameters
 
- " *s " – A pointer to a null-terminated string containing the format control string. This string may contain ordinary characters and format specifications.
+➡️ " *s " – A pointer to a null-terminated string containing the format control string. This string may contain ordinary characters and format specifications.
 
- " … "  – A variable number of arguments that correspond to the values to be formatted and printed based on the placeholders in the format string.
+➡️ " … "  – A variable number of arguments that correspond to the values to be formatted and printed based on the placeholders in the format string.
 
 ➤ Return Value
 
-The total number of characters printed, excluding the null-terminating byte. If an error occurs or an unsupported conversion specifier is encountered, it returns -1.
+➡️ The total number of characters printed, excluding the null-terminating byte. If an error occurs or an unsupported conversion specifier is encountered, it returns -1.
 
 ---
 
